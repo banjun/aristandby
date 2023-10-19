@@ -7,13 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA00F2142AE14BC5004EED53 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA00F2132AE14BC5004EED53 /* WidgetKit.framework */; };
+		EA00F2162AE14BC5004EED53 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA00F2152AE14BC5004EED53 /* SwiftUI.framework */; };
+		EA00F2192AE14BC5004EED53 /* WidgetABundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA00F2182AE14BC5004EED53 /* WidgetABundle.swift */; };
+		EA00F21B2AE14BC5004EED53 /* WidgetALiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA00F21A2AE14BC5004EED53 /* WidgetALiveActivity.swift */; };
+		EA00F21D2AE14BC5004EED53 /* WidgetA.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA00F21C2AE14BC5004EED53 /* WidgetA.swift */; };
+		EA00F21F2AE14BC5004EED53 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA00F21E2AE14BC5004EED53 /* AppIntent.swift */; };
+		EA00F2212AE14BC7004EED53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA00F2202AE14BC7004EED53 /* Assets.xcassets */; };
+		EA00F2252AE14BC7004EED53 /* WidgetAExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EA00F2112AE14BC5004EED53 /* WidgetAExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		EA1701982AE1499300E53DAF /* Widget17App.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1701972AE1499300E53DAF /* Widget17App.swift */; };
 		EA17019A2AE1499300E53DAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1701992AE1499300E53DAF /* ContentView.swift */; };
 		EA17019C2AE1499600E53DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA17019B2AE1499600E53DAF /* Assets.xcassets */; };
 		EA17019F2AE1499600E53DAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA17019E2AE1499600E53DAF /* Preview Assets.xcassets */; };
+		EAF9BCD72AE150A000D3A3BE /* SwiftSparql in Frameworks */ = {isa = PBXBuildFile; productRef = EAF9BCD62AE150A000D3A3BE /* SwiftSparql */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		EA00F2232AE14BC7004EED53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA17018C2AE1499300E53DAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA00F2102AE14BC5004EED53;
+			remoteInfo = WidgetAExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA00F2262AE14BC7004EED53 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EA00F2252AE14BC7004EED53 /* WidgetAExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		EA00F2112AE14BC5004EED53 /* WidgetAExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetAExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA00F2132AE14BC5004EED53 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		EA00F2152AE14BC5004EED53 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		EA00F2182AE14BC5004EED53 /* WidgetABundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetABundle.swift; sourceTree = "<group>"; };
+		EA00F21A2AE14BC5004EED53 /* WidgetALiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetALiveActivity.swift; sourceTree = "<group>"; };
+		EA00F21C2AE14BC5004EED53 /* WidgetA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetA.swift; sourceTree = "<group>"; };
+		EA00F21E2AE14BC5004EED53 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		EA00F2202AE14BC7004EED53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA00F2222AE14BC7004EED53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA1701942AE1499300E53DAF /* Widget17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Widget17.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA1701972AE1499300E53DAF /* Widget17App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget17App.swift; sourceTree = "<group>"; };
 		EA1701992AE1499300E53DAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -22,6 +64,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EA00F20E2AE14BC5004EED53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA00F2162AE14BC5004EED53 /* SwiftUI.framework in Frameworks */,
+				EAF9BCD72AE150A000D3A3BE /* SwiftSparql in Frameworks */,
+				EA00F2142AE14BC5004EED53 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EA1701912AE1499300E53DAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,10 +84,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA00F2122AE14BC5004EED53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA00F2132AE14BC5004EED53 /* WidgetKit.framework */,
+				EA00F2152AE14BC5004EED53 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA00F2172AE14BC5004EED53 /* WidgetA */ = {
+			isa = PBXGroup;
+			children = (
+				EA00F2182AE14BC5004EED53 /* WidgetABundle.swift */,
+				EA00F21A2AE14BC5004EED53 /* WidgetALiveActivity.swift */,
+				EA00F21C2AE14BC5004EED53 /* WidgetA.swift */,
+				EA00F21E2AE14BC5004EED53 /* AppIntent.swift */,
+				EA00F2202AE14BC7004EED53 /* Assets.xcassets */,
+				EA00F2222AE14BC7004EED53 /* Info.plist */,
+			);
+			path = WidgetA;
+			sourceTree = "<group>";
+		};
 		EA17018B2AE1499300E53DAF = {
 			isa = PBXGroup;
 			children = (
 				EA1701962AE1499300E53DAF /* Widget17 */,
+				EA00F2172AE14BC5004EED53 /* WidgetA */,
+				EA00F2122AE14BC5004EED53 /* Frameworks */,
 				EA1701952AE1499300E53DAF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				EA1701942AE1499300E53DAF /* Widget17.app */,
+				EA00F2112AE14BC5004EED53 /* WidgetAExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +147,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EA00F2102AE14BC5004EED53 /* WidgetAExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA00F2292AE14BC7004EED53 /* Build configuration list for PBXNativeTarget "WidgetAExtension" */;
+			buildPhases = (
+				EA00F20D2AE14BC5004EED53 /* Sources */,
+				EA00F20E2AE14BC5004EED53 /* Frameworks */,
+				EA00F20F2AE14BC5004EED53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetAExtension;
+			packageProductDependencies = (
+				EAF9BCD62AE150A000D3A3BE /* SwiftSparql */,
+			);
+			productName = WidgetAExtension;
+			productReference = EA00F2112AE14BC5004EED53 /* WidgetAExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		EA1701932AE1499300E53DAF /* Widget17 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA1701A22AE1499600E53DAF /* Build configuration list for PBXNativeTarget "Widget17" */;
@@ -77,10 +174,12 @@
 				EA1701902AE1499300E53DAF /* Sources */,
 				EA1701912AE1499300E53DAF /* Frameworks */,
 				EA1701922AE1499300E53DAF /* Resources */,
+				EA00F2262AE14BC7004EED53 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EA00F2242AE14BC7004EED53 /* PBXTargetDependency */,
 			);
 			name = Widget17;
 			productName = Widget17;
@@ -97,6 +196,9 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					EA00F2102AE14BC5004EED53 = {
+						CreatedOnToolsVersion = 15.0;
+					};
 					EA1701932AE1499300E53DAF = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -111,16 +213,28 @@
 				Base,
 			);
 			mainGroup = EA17018B2AE1499300E53DAF;
+			packageReferences = (
+				EAF9BCD52AE150A000D3A3BE /* XCRemoteSwiftPackageReference "SwiftSparql" */,
+			);
 			productRefGroup = EA1701952AE1499300E53DAF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EA1701932AE1499300E53DAF /* Widget17 */,
+				EA00F2102AE14BC5004EED53 /* WidgetAExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		EA00F20F2AE14BC5004EED53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA00F2212AE14BC7004EED53 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EA1701922AE1499300E53DAF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,6 +247,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EA00F20D2AE14BC5004EED53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA00F21B2AE14BC5004EED53 /* WidgetALiveActivity.swift in Sources */,
+				EA00F21F2AE14BC5004EED53 /* AppIntent.swift in Sources */,
+				EA00F21D2AE14BC5004EED53 /* WidgetA.swift in Sources */,
+				EA00F2192AE14BC5004EED53 /* WidgetABundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EA1701902AE1499300E53DAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -144,7 +269,73 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		EA00F2242AE14BC7004EED53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA00F2102AE14BC5004EED53 /* WidgetAExtension */;
+			targetProxy = EA00F2232AE14BC7004EED53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		EA00F2272AE14BC7004EED53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FPZK4WRGW7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetA/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetA;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.banjun.exp.Widget17.WidgetA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA00F2282AE14BC7004EED53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FPZK4WRGW7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetA/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetA;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.banjun.exp.Widget17.WidgetA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		EA1701A02AE1499600E53DAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -267,6 +458,7 @@
 		EA1701A32AE1499600E53DAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +488,7 @@
 		EA1701A42AE1499600E53DAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -325,6 +518,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EA00F2292AE14BC7004EED53 /* Build configuration list for PBXNativeTarget "WidgetAExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA00F2272AE14BC7004EED53 /* Debug */,
+				EA00F2282AE14BC7004EED53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EA17018F2AE1499300E53DAF /* Build configuration list for PBXProject "Widget17" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -344,6 +546,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EAF9BCD52AE150A000D3A3BE /* XCRemoteSwiftPackageReference "SwiftSparql" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/banjun/SwiftSparql";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EAF9BCD62AE150A000D3A3BE /* SwiftSparql */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAF9BCD52AE150A000D3A3BE /* XCRemoteSwiftPackageReference "SwiftSparql" */;
+			productName = SwiftSparql;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EA17018C2AE1499300E53DAF /* Project object */;
 }

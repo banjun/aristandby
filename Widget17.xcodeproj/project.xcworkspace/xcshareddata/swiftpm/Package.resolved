@@ -1,0 +1,41 @@
+{
+  "pins" : [
+    {
+      "identity" : "brightfutures",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Thomvis/BrightFutures",
+      "state" : {
+        "revision" : "fa66fa183dce7196d431244d0215748cd14c5758",
+        "version" : "8.2.0"
+      }
+    },
+    {
+      "identity" : "footlessparser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kareman/FootlessParser",
+      "state" : {
+        "revision" : "11c7a366720a2cc62d13ee69c8bdb8372bb3bb2b",
+        "version" : "0.5.2"
+      }
+    },
+    {
+      "identity" : "reactiveswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactiveCocoa/ReactiveSwift",
+      "state" : {
+        "revision" : "c43bae3dac73fdd3cb906bd5a1914686ca71ed3c",
+        "version" : "6.7.0"
+      }
+    },
+    {
+      "identity" : "swiftsparql",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/banjun/SwiftSparql",
+      "state" : {
+        "revision" : "c44e07695b60cc42bf020f8bdbe86b7d1c039bb2",
+        "version" : "0.12.0"
+      }
+    }
+  ],
+  "version" : 2
+}
